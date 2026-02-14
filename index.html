@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day 💖</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="main-title">Happy Valentine's Day, Baby 💖</h1>
+            <p class="subtitle">Our little world.</p>
+        </section>
+
+        <!-- Couple Photo Carousel Section -->
+        <section class="photo-section">
+            <div class="photo-frame">
+                <!-- Photo Carousel -->
+                <div class="carousel-container">
+                    <div class="carousel-slides" id="carouselSlides">
+                        <!-- Add your photos here - update the image sources -->
+                        <div class="carousel-slide active">
+                            <img src="Assets\image1.jpeg" alt="Our Memory 1" class="couple-photo">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Assets\image2.jpeg" alt="Our Memory 2" class="couple-photo">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Assets\image3.jpeg" alt="Our Memory 3" class="couple-photo">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Assets\image4.jpeg" alt="Our Memory 4" class="couple-photo">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Assets\image5.jpeg" alt="Our Memory 5" class="couple-photo">
+                        </div>
+                        <!-- Add more slides as needed - just copy-paste a slide block and update the src -->
+                    </div>
+
+                    <!-- Navigation Arrows -->
+                    <button class="carousel-arrow carousel-prev" id="prevBtn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M15 18l-6-6 6-6" />
+                        </svg>
+                    </button>
+                    <button class="carousel-arrow carousel-next" id="nextBtn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M9 18l6-6-6-6" />
+                        </svg>
+                    </button>
+
+                    <!-- Slide Indicators -->
+                    <div class="carousel-indicators" id="carouselIndicators">
+                        <!-- Dots will be generated automatically by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="photo-glow"></div>
+            </div>
+
+            <!-- Cute Teddy Bear -->
+            <div class="teddy-container">
+                <img src="cute_teddy_bear.svg" alt="Teddy Bear" class="teddy-bear">
+            </div>
+        </section>
+
+        <!-- Romantic Message with Typewriter Effect -->
+        <section class="message-section">
+            <p class="typewriter-text" id="typewriterText"></p>
+        </section>
+
+        <!-- Surprise Button -->
+        <section class="button-section">
+            <button class="surprise-button" id="surpriseBtn">
+                <span class="btn-text">Open My Heart 💌</span>
+                <div class="btn-glow"></div>
+            </button>
+        </section>
+
+    </div>
+
+    <!-- Modal Popup -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-container">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-content">
+                <div class="modal-heart">💖</div>
+                <h2 class="modal-title">To My One and Only</h2>
+                <p class="modal-message">
+                    Every moment with you feels like a beautiful dream I never want to wake up from.
+                    You're not just my Valentine — you're my forever. Thank you for being my light,
+                    my laughter, and my love. Here's to endless memories, infinite cuddles,
+                    and a lifetime of happiness together. I love you more than words can say. 💕
+                </p>
+                <div class="modal-signature">Forever Yours ❤️</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Canvas for Confetti -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <!-- Optional: Background Music (uncomment to enable) -->
+    <!-- 
+    <audio id="bgMusic" loop>
+        <source src="romantic-music.mp3" type="audio/mpeg">
+    </audio>
+    -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

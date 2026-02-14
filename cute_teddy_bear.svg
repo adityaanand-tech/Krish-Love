@@ -1,0 +1,43 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Teddy Bear SVG Illustration -->
+  
+  <!-- Left Ear -->
+  <circle cx="60" cy="50" r="25" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  <circle cx="60" cy="50" r="15" fill="#FFE4E1"/>
+  
+  <!-- Right Ear -->
+  <circle cx="140" cy="50" r="25" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  <circle cx="140" cy="50" r="15" fill="#FFE4E1"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="80" r="45" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  
+  <!-- Snout -->
+  <ellipse cx="100" cy="90" rx="25" ry="20" fill="#FFE4E1"/>
+  <ellipse cx="100" cy="95" rx="12" ry="8" fill="#FF69B4"/>
+  
+  <!-- Eyes -->
+  <circle cx="85" cy="70" r="5" fill="#4A4A4A"/>
+  <circle cx="115" cy="70" r="5" fill="#4A4A4A"/>
+  <circle cx="87" cy="68" r="2" fill="white"/>
+  <circle cx="117" cy="68" r="2" fill="white"/>
+  
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="40" ry="50" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  <ellipse cx="100" cy="155" rx="25" ry="30" fill="#FFE4E1"/>
+  
+  <!-- Arms -->
+  <ellipse cx="65" cy="130" rx="15" ry="35" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2" transform="rotate(-20 65 130)"/>
+  <ellipse cx="135" cy="130" rx="15" ry="35" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2" transform="rotate(20 135 130)"/>
+  
+  <!-- Legs -->
+  <ellipse cx="80" cy="185" rx="18" ry="25" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  <ellipse cx="120" cy="185" rx="18" ry="25" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  <ellipse cx="80" cy="195" rx="15" ry="10" fill="#FFE4E1"/>
+  <ellipse cx="120" cy="195" rx="15" ry="10" fill="#FFE4E1"/>
+  
+  <!-- Heart -->
+  <g transform="translate(100, 140)">
+    <path d="M0,-8 C-4,-12 -10,-12 -10,-6 C-10,0 0,8 0,8 C0,8 10,0 10,-6 C10,-12 4,-12 0,-8 Z" fill="#FF1493"/>
+  </g>
+</svg>
